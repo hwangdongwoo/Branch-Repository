@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//document 2
 // Merges two subarrays of arr[].
 // First subarray is arr[l..m]
 // Second subarray is arr[m+1..r]
@@ -26,7 +27,7 @@ void merge(int arr[], int l,
 	// into arr[l..r]
 	// Initial index of first subarray
 	i = 0;
-
+//123
 	// Initial index of second subarray
 	j = 0;
 
@@ -46,7 +47,7 @@ void merge(int arr[], int l,
 		}
 		k++;
 	}
-
+//321
 	// Copy the remaining elements
 	// of L[], if there are any
 	while (i < n1) {
@@ -64,7 +65,7 @@ void merge(int arr[], int l,
 		k++;
 	}
 }
-
+//431
 // l is for left index and r is
 // right index of the sub-array
 // of arr to be sorted
@@ -84,7 +85,7 @@ void mergeSort(int arr[],
 		merge(arr, l, m, r);
 	}
 }
-
+//341
 // UTILITY FUNCTIONS
 // Function to print an array
 void printArray(int A[], int size)
@@ -110,3 +111,4 @@ int main()
 	printArray(arr, arr_size);
 	return 0;
 }
+//branch1
